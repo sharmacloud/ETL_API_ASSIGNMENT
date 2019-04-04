@@ -21,4 +21,6 @@ Sincerely,
 Piyush Sharma
 
 
-*If the output is an error that says the buildingInfo cant be used, that means that the API url has changed and it can be fixed by visiting https://data.cityofnewyork.us/Housing-Development/Building-Footprints/nqwf-w8eh and selecting export and then SODA API, that will provide another link which can be pasted in the request variable in main.go*
+*If the output is an error that says the buildingInfo cant be used, that means that the API url has changed and it can be fixed by visiting https://data.cityofnewyork.us/Housing-Development/Building-Footprints/nqwf-w8eh and selecting export and then SODA API, that will provide another link which can be pasted in the resp variable in main.go*
+i.e. resp, err := http.Get("NEW_API_URL")
+
