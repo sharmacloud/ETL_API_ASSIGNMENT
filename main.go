@@ -33,7 +33,7 @@ type buildingInfo struct {
 func main() {
 
 	//make a get request to the url
-	resp, err := http.Get("https://data.cityofnewyork.us/resource/5kmz-p3b7.json")
+	resp, err := http.Get("https://data.cityofnewyork.us/resource/ucus-q7bt.json")
 
 	//basic error checking
 	check(err)
